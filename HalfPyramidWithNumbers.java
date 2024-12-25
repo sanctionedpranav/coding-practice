@@ -1,4 +1,3 @@
-
 public class HalfPyramidWithNumbers {
 
     public static void main(String[] args) {
