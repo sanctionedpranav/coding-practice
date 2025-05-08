@@ -1,4 +1,4 @@
-function RemoveDuplicate(arr) {
+function removeDuplicate(arr) {
   let uniqueElements = [];
 
   for (let i = 0; i < arr.length; i++) {
@@ -10,4 +10,4 @@ function RemoveDuplicate(arr) {
   return uniqueElements
 }
 
-console.log(RemoveDuplicate([1, 2, 3, 4, 5, 1, 2, 3, 4, 5]));
+console.log(removeDuplicate([1, 2, 3, 4, 5, 1, 2, 3, 4, 5]));
