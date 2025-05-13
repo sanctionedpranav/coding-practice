@@ -9,4 +9,5 @@ function findLargestNumber(arr) {
 
   return largest;
 }
+
 console.log(findLargestNumber([18, 26, 15, 44, 50]));

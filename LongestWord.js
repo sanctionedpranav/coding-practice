@@ -1,15 +1,14 @@
 function longestWord(sentence) {
-  const words = sentence.split(' ');
-  let longestWord = '';
+  const words = sentence.split(' ')
+  let longestWord = ''
 
   for (let word of words) {
     if (word.length > longestWord.length) {
-      longestWord = word;
+      longestWord = word
     }
   }
 
-  return longestWord;
-
+  return longestWord
 }
 
-console.log(longestWord("I love coding in Javascript"));
+console.log(longestWord("I love coding in Javascript"))
